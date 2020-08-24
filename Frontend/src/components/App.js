@@ -41,21 +41,35 @@ const Paragraph = styled.p`
 `;
 
 
+const Image = styled.img`
+    position: absolute;
+    width: 200px;
+    top: -30px;
+    margin-left: 15px;
+`;
+
+
 
 const App = () => (
-    <Container>
-        <Wrapper>
-            <Title>
-                APRENDE LAS MEJORES PRÁCTICAS SOBRE
-            </Title>
-            <SubTitle>
-                Administración de proyectos
-            </SubTitle>
-            <Paragraph>Incrementa tus conociminetos sobre la administración de negocios a través de juegos interactivos.
-                 Inicia Sesión y lleva control de tus avances en tu cuenta.</Paragraph>
-            <Link>Comenzar a aprender</Link>
-        </Wrapper>
-    </Container>
+    <div>
+        <Image 
+        src="https://media-private.canva.com/5Kfro/MAEFW25Kfro/1/s.png?response-expires=Mon%2C%2024%20Aug%202020%2001%3A29%3A44%20GMT&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200823T224711Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9752&X-Amz-Credential=AKIAJJATJK7JCUD446NA%2F20200823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4b3430d71fbcd24d08035ac3ca3fe06dbbf2505416d7ac71bbf68a3b857f3853"
+        />
+        <Container>
+            <Wrapper>
+                <Title>
+                    APRENDE LAS MEJORES PRÁCTICAS SOBRE
+                </Title>
+                <SubTitle>
+                    Administración de proyectos
+                </SubTitle>
+                
+                <Paragraph>Incrementa tus conociminetos sobre la administración de negocios a través de juegos interactivos.
+                    Inicia Sesión y lleva control de tus avances en tu cuenta.</Paragraph>
+                <Link style={{background: '#0083ff', color: '#fff'}}>comenzar a aprender</Link>
+            </Wrapper>
+        </Container>
+    </div>
 );
 
 export default App;
