@@ -6,7 +6,10 @@ import { createGlobalStyle } from 'styled-components';
 
 import store from './store';
 import App from './components/App';
+import Login from './components/Login';
+import Register from './components/Register';
 import reset from './constants/css/reset';
+
 
 const GlobalStyle = createGlobalStyle`${reset}`;
 
@@ -14,7 +17,9 @@ ReactDOM.render(
     <BrowserRouter>
         <Fragment>
             <Provider store={store}>
-                <Route exact path="/" component={App}/>
+                {/*<Route path="/" component={App}/>*/}
+                <Route exact path="/" component={Login}/>
+                {/*<Route path="/" component={Register}/>*/}
             </Provider>
             <GlobalStyle />
         </Fragment>
