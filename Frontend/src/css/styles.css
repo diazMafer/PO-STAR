@@ -3,3 +3,73 @@
     width: 100px;
     height: 100px;
 }
+
+.container {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 100%;
+}
+
+* {
+    font-family: 'Patrick Hand SC', sans-serif !important;
+}
+.title {
+    color: #0083ff;
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: #2d4379;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+h1 {
+    line-height: 0.5;
+}
+
+p {
+    color: #7483a9;
+    font-size: 18px;
+    width: 600px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+img {
+    position: absolute;
+    width: 250px;
+	left: 50px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 25%;
+}
+
+.principleButton {
+    background: rgb(0, 131, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    border-radius: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.principleButton:Hover {
+    color: rgb(255,255,255);
+    text-decoration:  none;
+}

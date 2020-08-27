@@ -1,15 +1,14 @@
 import React from 'react';
-import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
-import Link from '@material-ui/core/Link';
+import EmailIcon from '@material-ui/icons/Email';
+import LockIcon from '@material-ui/icons/Lock';
+import InputAdornment from '@material-ui/core/InputAdornment';
+
 import Grid from '@material-ui/core/Grid';
-import Box from '@material-ui/core/Box';
-import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
-import Typography from '@material-ui/core/Typography';
+import  '../css/styles.css'
 import { makeStyles } from '@material-ui/core/styles'
 import Container from '@material-ui/core/Container';
 
@@ -18,18 +17,6 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
-function Copyright() {
-	return (
-		<Typography variant="body2" color="textSecondary" align="center">
-			{'Copyright © '}
-			<Link color="inherit" href="https://material-ui.com/">
-				Po-Star
-      </Link>{' '}
-			{new Date().getFullYear()}
-			{'.'}
-		</Typography>
-	);
-}
 
 const useStyles = makeStyles((theme) => ({
 	paper: {
@@ -44,47 +31,49 @@ const useStyles = makeStyles((theme) => ({
 	},
 	form: {
 		width: '100%', // Fix IE 11 issue.
-		marginTop: theme.spacing(1),
+		marginTop: 30
 	},
 	submit: {
 		margin: theme.spacing(3, 0, 2),
+		fontSize: '20px'
 	},
 	fontNavTitle: {
-		fontFamily: 'Patrick Hand SC, sans-serif',
 		fontWeight: 700,
 		fontSize: '1.5rem',
-		textTransform: "uppercase"
+		textTransform: "uppercase",
+		color: '#52648e !important'
+
 	},
 	fontNav: {
-		fontFamily: 'Patrick Hand SC, sans-serif',
 		fontWeight: 700,
-		fontSize: '1rem',
-		textTransform: "uppercase"
+		fontSize: '20px',
+		textTransform: "uppercase",
+		color: '#52648e !important'
+
 	},
 	fontButton: {
-		fontFamily: 'Patrick Hand SC, sans-serif',
 		fontWeight: 700,
 		textTransform: "uppercase"
 	},
 	fontForm: {
-		fontFamily: 'Patrick Hand SC, sans-serif',
 		fontSize: '1rem',
 		fontWeight: 700,
 		color: '#bbbbbb',
 		textTransform: "uppercase"
 	},
 	fontTittle: {
-		fontFamily: 'Patrick Hand SC, sans-serif',
 		fontSize: '3.5rem',
-		color: '#0083ff',
 		fontWeight: 700,
 		textTransform: "uppercase",
+		color: '#0083ff',
+		marginBottom: 15
+
 	},
 	fontTextF: {
-		fontFamily: 'Patrick Hand SC, sans-serif',
 		fontSize: '2rem',
-		color: '#7483a9',
+		color: '#52648e !important',
 		fontWeight: "bold",
+		marginTop: 25,
 		textTransform: "uppercase",
 	}
 
@@ -94,8 +83,6 @@ const useStyles = makeStyles((theme) => ({
 
 function Login(props) {
 	const classes = useStyles();
-
-	/*onClick={() => props.history.push('/Register')}*/
 
 	return (
 
@@ -113,7 +100,7 @@ function Login(props) {
 							<NavDropdown.Divider />
 							<NavDropdown.Item href="#action/3.4">Quienes somos</NavDropdown.Item>
 						</NavDropdown>
-						<Nav.Link className={classes.fontNav} href="#deets">Registrarse</Nav.Link>
+						<Nav.Link className={classes.fontNav} href="/Register">Registrarse</Nav.Link>
 
 						<Nav.Link href="#deets"> </Nav.Link>
 					</Nav>
@@ -123,21 +110,24 @@ function Login(props) {
 
 				<CssBaseline />
 				<div className={classes.paper}>
-					<Avatar className={classes.avatar}>
-						<LockOutlinedIcon />
-					</Avatar>
 					<h1 className={classes.fontTittle}>INICIAR SESIÓN</h1>
-					<form className={classes.form} noValidate>
 						<TextField
 							className={classes.fontTextF}
 							variant="outlined"
 							margin="normal"
 							fullWidth
 							id="email"
-							label="Usuario"
+							label="Email"
 							name="email"
 							autoComplete="email"
 							autoFocus
+							InputProps={{
+								startAdornment: (
+								  <InputAdornment position="start">
+									<EmailIcon />
+								  </InputAdornment>
+								),
+							  }}
 						/>
 						<TextField
 							className={classes.fontTextF}
@@ -149,12 +139,16 @@ function Login(props) {
 							type="password"
 							id="password"
 							autoComplete="current-password"
+							InputProps={{
+								startAdornment: (
+								  <InputAdornment position="start">
+									<LockIcon />
+								  </InputAdornment>
+								),
+							  }}
+
 						/>
-						<FormControlLabel
-							className={classes.fontForm}
-							control={<Checkbox value="remember" color="primary" />}
-							label="GUARDAR USUARIO"
-						/>
+					
 						<Button
 							type="submit"
 							fullWidth
@@ -162,15 +156,12 @@ function Login(props) {
 							color="primary"
 							className={classes.submit}
 						>
-							<p className={classes.fontButton}>Ingresar</p>
+							Ingresar
 						</Button>
 						<Grid container>
 						</Grid>
-					</form>
 				</div>
-				<Box mt={8}>
-					<Copyright />
-				</Box>
+				
 			</Container>
 		</div>
 

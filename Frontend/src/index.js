@@ -17,9 +17,9 @@ ReactDOM.render(
     <BrowserRouter>
         <Fragment>
             <Provider store={store}>
-                {/*<Route path="/" component={App}/>*/}
-                <Route exact path="/" component={Login}/>
-                {/*<Route path="/" component={Register}/>*/}
+                <Route exact path="/" component={App}/>
+                <Route path="/Login" component={Login}/>
+                <Route path="/Register" component={Register}/>
             </Provider>
             <GlobalStyle />
         </Fragment>
