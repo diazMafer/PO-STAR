@@ -1,6 +1,6 @@
 import React from 'react';
 import Avatar from '@material-ui/core/Avatar';
-import Button from '@material-ui/core/Button';
+import Buttonn from 'react-bootstrap/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
 import Link from '@material-ui/core/Link';
@@ -96,7 +96,7 @@ function Register(props) {
 	return (
 		<div>
 			<Navbar collapseOnSelect expand="lg" >
-				<Navbar.Brand className={classes.fontNavTitle} href="#home">PO-STAR</Navbar.Brand>
+				<Navbar.Brand className={classes.fontNavTitle} href="/">PO-STAR</Navbar.Brand>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Nav className="mr-auto">
@@ -108,7 +108,7 @@ function Register(props) {
 							<NavDropdown.Divider />
 							<NavDropdown.Item href="#action/3.4">Quienes somos</NavDropdown.Item>
 						</NavDropdown>
-						<Nav.Link className={classes.fontNav} href="#deets">Iniciar Sesión</Nav.Link>
+						<Nav.Link className={classes.fontNav} href="/Login">Iniciar Sesión</Nav.Link>
 						<Nav.Link href="#deets"> </Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
@@ -165,15 +165,8 @@ function Register(props) {
 							id="password"
 							autoComplete="current-password"
 						/>
-						<Button
-							type="submit"
-							fullWidth
-							variant="contained"
-							color="primary"
-							className={classes.submit}
-						>
-							<p className={classes.fontButton}>REGISTRARSE</p>
-						</Button>
+						<br/><br/>
+						<Buttonn href='/Register' variant="info" block className={classes.fontButton}>Registrarse</Buttonn>
 						<Grid container>
 						</Grid>
 					</form>

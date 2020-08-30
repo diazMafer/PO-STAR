@@ -48,11 +48,12 @@ function App(props){
 		</Navbar>
 		
 		<Container component="main" className="container">
-			<div>
-				<img
-					src="https://uploads-ssl.webflow.com/5e8b8f0cd098a8db668ff85e/5ea32097088ac38944b4318b_Brightness_Contrast%201%20copy.png"
-				/>
-			</div>
+			
+			<img className="message"
+				src="https://uploads-ssl.webflow.com/5e8b8f0cd098a8db668ff85e/5ea32097088ac38944b4318b_Brightness_Contrast%201%20copy.png"
+			/>
+			
+			
 			<br/>
 			<h1 className="title">
 				APRENDE LAS MEJORES PRÁCTICAS SOBRE
@@ -64,9 +65,14 @@ function App(props){
 			</h1>
 			<br/>
 
-			<p>Incrementa tus conociminetos sobre la administración de negocios a través de juegos interactivos.
-				Inicia Sesión y lleva control de tus avances en tu cuenta.</p>
+			<h6 className="desc">Incrementa tus conociminetos sobre la administración de negocios a través de juegos interactivos.
+				Inicia Sesión y lleva control de tus avances en tu cuenta.
+			</h6>
 				<br/>
+
+			<img className="ball"
+			src="https://uploads-ssl.webflow.com/5e8b8f0cd098a8db668ff85e/5ea32097088ac38944b4318b_Brightness_Contrast%201%20copy.png"
+			/>
 
 			<Link className="principleButton" to="/Register">comenzar <br/> a aprender</Link>
 		</Container>

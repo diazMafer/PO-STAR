@@ -13,35 +13,91 @@
     max-width: 100%;
 }
 
-* {
-    font-family: 'Patrick Hand SC', sans-serif !important;
-}
-.title {
-    color: #0083ff;
-    font-size: 55px;
-    font-weight: 700;
-    text-transform: uppercase;
+/* Images area ----------------------------------------------------------------*/
+img.message{
+    left: 30%;
+    top: 25%;
 }
 
-.subtitle {
-    color: #2d4379;
-    font-size: 60px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-top: 10px;
+img.ball{    
+    left: 20%;
+    bottom: 0%;
+}
+
+/* TEXT AREA ---------------------------------------------------------------------*/
+* {
+    font-family: 'Patrick Hand SC', sans-serif !important;
 }
 
 h1 {
     line-height: 0.5;
 }
 
-p {
+h6.desc {
     color: #7483a9;
-    font-size: 18px;
-    width: 600px;
+    font-size: 15px;
+    width: 400px;
     text-transform: uppercase;
     margin-top: 20px;
+    text-align: center;
 }
+
+h1.title {
+    color: #0083ff;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1.subtitle {
+    color: #2d4379;
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+  @media screen and (min-width: 751px) {
+    h1.title {
+        font-size: 55px;
+    }
+    h1.subtitle {
+        font-size: 60px;
+    }
+    h6.desc {
+        font-size: 18px;
+        width: 600px;
+    }
+   
+    img.message{    
+        left: 0%;
+        top: 25%;
+    }
+    img.ball{    
+        left: 80%;
+        bottom: 0%;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    h1.title {
+        font-size: 30px;
+
+    }
+    h1.subtitle {
+        font-size: 45px;
+    }
+    h6.desc {
+        font-size: 13px;
+        width: 300px;
+    }
+  }
+
+/* Fin text area --------------------------------------------------------------------*/
+
 
 img {
     position: absolute;
@@ -69,7 +125,11 @@ img {
     margin-top: 30px;
 }
 
-.principleButton:Hover {
+.principleButton:hover {
     color: rgb(255,255,255);
     text-decoration:  none;
+    opacity: 0.85;
+    width: 205px;
+    transition-duration: 250ms;
 }
+

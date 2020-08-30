@@ -1,11 +1,12 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
-import Checkbox from '@material-ui/core/Checkbox';
-import EmailIcon from '@material-ui/icons/Email';
-import LockIcon from '@material-ui/icons/Lock';
-import InputAdornment from '@material-ui/core/InputAdornment';
+//import Checkbox from '@material-ui/core/Checkbox';
+//import EmailIcon from '@material-ui/icons/Email';
+//import LockIcon from '@material-ui/icons/Lock';
+//import InputAdornment from '@material-ui/core/InputAdornment';
+
+import Buttonn from 'react-bootstrap/Button';
 
 import Grid from '@material-ui/core/Grid';
 import  '../css/styles.css'
@@ -15,7 +16,6 @@ import Container from '@material-ui/core/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
 
 
 const useStyles = makeStyles((theme) => ({
@@ -35,7 +35,8 @@ const useStyles = makeStyles((theme) => ({
 	},
 	submit: {
 		margin: theme.spacing(3, 0, 2),
-		fontSize: '20px'
+		fontSize: '20px',
+		textTransform: "uppercase"
 	},
 	fontNavTitle: {
 		fontWeight: 700,
@@ -88,7 +89,7 @@ function Login(props) {
 
 		<div>
 			<Navbar collapseOnSelect expand="lg" >
-				<Navbar.Brand className={classes.fontNavTitle} href="#home">PO-STAR</Navbar.Brand>
+				<Navbar.Brand className={classes.fontNavTitle} href="/">PO-STAR</Navbar.Brand>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Nav className="mr-auto">
@@ -121,13 +122,13 @@ function Login(props) {
 							name="email"
 							autoComplete="email"
 							autoFocus
-							InputProps={{
+							/*InputProps={{
 								startAdornment: (
 								  <InputAdornment position="start">
 									<EmailIcon />
 								  </InputAdornment>
 								),
-							  }}
+							  }}*/
 						/>
 						<TextField
 							className={classes.fontTextF}
@@ -139,25 +140,17 @@ function Login(props) {
 							type="password"
 							id="password"
 							autoComplete="current-password"
-							InputProps={{
+							/*InputProps={{
 								startAdornment: (
 								  <InputAdornment position="start">
 									<LockIcon />
 								  </InputAdornment>
 								),
-							  }}
+							  }}*/
 
 						/>
-					
-						<Button
-							type="submit"
-							fullWidth
-							variant="contained"
-							color="primary"
-							className={classes.submit}
-						>
-							Ingresar
-						</Button>
+						<br/><br/>
+						<Buttonn href='/Login' variant="info" block className={classes.submit}>INGRESAR</Buttonn>
 						<Grid container>
 						</Grid>
 				</div>
