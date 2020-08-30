@@ -9,8 +9,6 @@ import Container from '@material-ui/core/Container';
 
 //import NavDropdown from 'react-bootstrap/NavDropdown';
 
-
-
 const useStyles = makeStyles((theme) => ({
 	fontNavTitle: {
 		fontFamily: 'Patrick Hand SC, sans-serif',

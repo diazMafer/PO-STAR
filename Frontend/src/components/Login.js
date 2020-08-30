@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState }  from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
 //import Checkbox from '@material-ui/core/Checkbox';
@@ -16,6 +16,8 @@ import Container from '@material-ui/core/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+
+import Worker from './Worker'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -81,12 +83,32 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-
 function Login(props) {
-	const classes = useStyles();
+	/*const classes = useStyles();
+	const [credState, setCredentials] = useState({
+		credentials: {
+			email: null,
+			password: null
+		}
+	});
 
+	const setEmailState= (emaill=null) => {
+		setCredentials({
+			email: emaill,
+		})
+	}
+
+	const setPasswordState = (passwordd) => {
+		setCredentials({
+			password: passwordd
+		})
+	}*/
+
+	const [email, setEmail] = useState('')
+	const [pass, setPass] = useState('')
+
+	
 	return (
-
 		<div>
 			<Navbar collapseOnSelect expand="lg" >
 				<Navbar.Brand className={classes.fontNavTitle} href="/">PO-STAR</Navbar.Brand>
@@ -122,6 +144,7 @@ function Login(props) {
 							name="email"
 							autoComplete="email"
 							autoFocus
+							onChange={(event) => setEmail(event.target.value)}
 							/*InputProps={{
 								startAdornment: (
 								  <InputAdornment position="start">
@@ -140,6 +163,7 @@ function Login(props) {
 							type="password"
 							id="password"
 							autoComplete="current-password"
+							onChange={(event) => setPass(event.target.value)}
 							/*InputProps={{
 								startAdornment: (
 								  <InputAdornment position="start">
@@ -147,8 +171,8 @@ function Login(props) {
 								  </InputAdornment>
 								),
 							  }}*/
-
 						/>
+						{Worker.SignIn(email,pass)}
 						<br/><br/>
 						<Buttonn href='/Login' variant="info" block className={classes.submit}>INGRESAR</Buttonn>
 						<Grid container>

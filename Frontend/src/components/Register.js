@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState }  from 'react';
 import Avatar from '@material-ui/core/Avatar';
 import Buttonn from 'react-bootstrap/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -15,6 +15,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
+import Worker from './Worker'
 
 function Copyright() {
 	return (
@@ -91,8 +92,11 @@ const useStyles = makeStyles((theme) => ({
 
 
 function Register(props) {
-    const classes = useStyles();
-    /*onClick={() => props.history.push('/Register')} */
+	const classes = useStyles();
+	const [name, setName] = useState('')
+	const [email, setEmail] = useState('')
+	const [pass, setPass] = useState('')
+
 	return (
 		<div>
 			<Navbar collapseOnSelect expand="lg" >
@@ -131,6 +135,7 @@ function Register(props) {
 							name="email"
 							autoComplete="email"
 							autoFocus
+							onChange={(event) => setName(event.target.value)}
 						/>
                         <TextField
 							className={classes.fontTextF}
@@ -142,6 +147,7 @@ function Register(props) {
 							name="email"
 							autoComplete="email"
 							autoFocus
+							onChange={(event) => setEmail(event.target.value)}
 						/>
 						<TextField
 							className={classes.fontTextF}
@@ -153,6 +159,7 @@ function Register(props) {
 							type="password"
 							id="password"
 							autoComplete="current-password"
+							onChange={(event) => setPass(event.target.value)}
 						/>
                         	<TextField
 							className={classes.fontTextF}
@@ -166,6 +173,7 @@ function Register(props) {
 							autoComplete="current-password"
 						/>
 						<br/><br/>
+						{Worker.createAccount(name,email,pass)}
 						<Buttonn href='/Register' variant="info" block className={classes.fontButton}>Registrarse</Buttonn>
 						<Grid container>
 						</Grid>
