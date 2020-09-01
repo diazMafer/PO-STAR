@@ -1,0 +1,53 @@
+.paper {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    width: 100%;
+    margin-top: 1;
+}
+
+.submit {
+    margin: 3px;
+}
+
+.fontNavTitle {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase
+}
+
+.fontNav {
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.fontButton {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.fontForm {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #bbbbbb;
+    text-transform: uppercase;
+}
+
+.fontTittle {
+    font-size: 3.5rem;
+    color: #0083ff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.fontTextF {
+    font-size: 2rem;
+    color: #7483a9;
+    font-weight: bold;
+    text-transform: uppercase;
+}

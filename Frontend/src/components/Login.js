@@ -84,25 +84,6 @@ const useStyles = makeStyles((theme) => ({
 
 
 function Login(props) {
-	/*const classes = useStyles();
-	const [credState, setCredentials] = useState({
-		credentials: {
-			email: null,
-			password: null
-		}
-	});
-
-	const setEmailState= (emaill=null) => {
-		setCredentials({
-			email: emaill,
-		})
-	}
-
-	const setPasswordState = (passwordd) => {
-		setCredentials({
-			password: passwordd
-		})
-	}*/
 
 	const [email, setEmail] = useState('')
 	const [pass, setPass] = useState('')
