@@ -57,7 +57,7 @@ Este proyecto hace uso de las siguientes herramientas:
 * **Diego Leonel Sevilla de León** - *Contributor* - [sev17238](https://github.com/sev17238)
 * **Josue Lopez Florian** - *Contributor* - 
 * **Paul de Jesus Belches** - *Contributor* - [paulDevPack](https://github.com/paulDevPack)
-* **Fernando Heinstenberg** - *Contributor* - [11hengstenberg](https://github.com/11hengstenberg)
+* **Fernando Hengstenberg** - *Contributor* - [11hengstenberg](https://github.com/11hengstenberg)
 
 
 
