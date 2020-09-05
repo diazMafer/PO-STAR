@@ -29,7 +29,7 @@ Debes tener instalados Node.js y npm o yarn en tu computadora.
 3. Correr `yarn` o `npm install` para instalación de dependencias.<br />
 4. Correr `npm run start` Example app: `http://localhost:8080`.
 
-## Commandos
+## Commandos para correr Frontend
 - `npm start` - levantar dev server
 - `npm run build` - creación de folder para producción en `/dist`
 - `npm run lint` - chequeo de eslint 
@@ -39,11 +39,15 @@ Debes tener instalados Node.js y npm o yarn en tu computadora.
 - `npm run test:cover` - coverage mode
 - `npm run cypress:open` - ejecución de cypress
 
+## Comandos para correr Backend
+- `npm run dev` - levantar dev server
+
 ## Desarrollado con
 Este proyecto hace uso de las siguientes herramientas:
 
 - ⚛ **React** — 16.7.0-alpha.0 with Hooks
 - ♻ **Redux with Redux Thunk** — State Management with middleware to handle async requests
+- 🚀 **Express** - 
 - 🛠 **Babel** — ES6 syntax, Airbnb & React/Recommended config
 - 🚀 **Webpack**  — Hot Reloading, Code Splitting, Optimized Build
 - 💅 **CSS** — Styled Componentse
@@ -53,7 +57,7 @@ Este proyecto hace uso de las siguientes herramientas:
 
 ## Autores
 * **María Fernanda López Díaz** - *Initial work* - [diazMafer](https://github.com/diazMafer)
-* * **Jose David Uriel Soto** - *Contributor* - 
+* **Jose David Uriel Soto** - *Contributor* - 
 * **Diego Leonel Sevilla de León** - *Contributor* - [sev17238](https://github.com/sev17238)
 * **Josue Lopez Florian** - *Contributor* - 
 * **Paul de Jesus Belches** - *Contributor* - [paulDevPack](https://github.com/paulDevPack)
