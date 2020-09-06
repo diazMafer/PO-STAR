@@ -22,7 +22,28 @@ export const createAccount = (mail, pass) => {
 	
 }
 
-export const signIn = (email, password) => {
+export const Sign_in = (mail, pass) => {
+	return new Promise(async (resolve, reject) => {
+		await axios.post('http://localhost:3000/signin', {
+			email: mail,
+			password: pass
+		}).then(({status,data}) =>{
+			if(status === 201){
+				resolve(data)
+			} else if (status === 422){
+				console.log("backend response error with 422 on signin")
+			}
+			
+		}).catch(reject)
+	})
+	
+}
+
+
+///--------------------------------------------------------------------------------------------------------
+//_________________________________________________________________________________________________________
+
+export const signIn_fix = (email, password) => {
 	event.preventDefault();
 	//if (!null) {
 		const jsonn = JSON.stringify(
@@ -31,7 +52,7 @@ export const signIn = (email, password) => {
 				"password": password,
 			}
 		)
-		axios.post("/signup", jsonn, { // receive two parameter endpoint url ,form data
+		axios.post("/signin", jsonn, { // receive two parameter endpoint url ,form data
 		}).then(res => { // then print response status
 			console.log('aca')
 			console.log(res)
