@@ -21,62 +21,6 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Redirect } from 'react-router'
 import * as Worker from './Worker'
 
-
-
-const useStyles = makeStyles((theme) => ({
-	paper: {
-		marginTop: theme.spacing(15),
-		display: 'flex',
-		flexDirection: 'column',
-		alignItems: 'center',
-	},
-	avatar: {
-		margin: theme.spacing(1),
-		backgroundColor: theme.palette.secondary.main,
-	},
-	form: {
-		width: '100%', // Fix IE 11 issue.
-		marginTop: 30
-	},
-	submit: {
-		margin: theme.spacing(3, 0, 2),
-		fontSize: '20px',
-		textTransform: "uppercase"
-	},
-	fontNavTitle: {
-		fontWeight: 700,
-		fontSize: '1.5rem',
-		textTransform: "uppercase",
-		color: '#52648e !important'
-
-	},
-	fontNav: {
-		fontWeight: 700,
-		fontSize: '20px',
-		textTransform: "uppercase",
-		color: '#52648e !important'
-
-	},
-	fontButton: {
-		fontWeight: 700,
-		textTransform: "uppercase"
-	},
-	fontForm: {
-		fontSize: '1rem',
-		fontWeight: 700,
-		color: '#bbbbbb',
-		textTransform: "uppercase"
-	},
-	fontTittle: {
-		fontSize: '3.5rem',
-		fontWeight: 700,
-		textTransform: "uppercase",
-		color: '#0083ff',
-		marginBottom: 15
-
-	}
-)
-}
 export default class Login extends React.Component {
 
 	constructor(props){
