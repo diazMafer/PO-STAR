@@ -1,3 +1,64 @@
 .main{
     margin-top: 25%;
 }
+
+.paper{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.form{
+    width: 100%;
+    margin-top: 30%;
+}
+
+.submit{
+    margin: 3em;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.fontNavTitle{
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #52648E;
+}
+
+.fontNav {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #52648E;
+}
+
+.fontButton{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.fontForm{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #bbbbbb;
+    text-transform: uppercase;
+}
+
+.fontTittle{
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0083ff;
+    margin-bottom: 15%;
+}
+
+.fontTextF{
+    font-size: 2rem;
+    color: #52648E;
+    font-weight: bold;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
