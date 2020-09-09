@@ -7,6 +7,7 @@ import { createGlobalStyle } from 'styled-components';
 import store from './store';
 import App from './components/App';
 import Login from './components/Login';
+import Menu from './components/Menu'
 import Register from './components/Register';
 import reset from './constants/css/reset';
 
@@ -20,6 +21,7 @@ ReactDOM.render(
                 <Route exact path="/" component={App}/>
                 <Route path="/Login" component={Login}/>
                 <Route path="/Register" component={Register}/>
+                <Route path="/Menu" component={Menu}/>
             </Provider>
             <GlobalStyle />
         </Fragment>

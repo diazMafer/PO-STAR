@@ -1,5 +1,4 @@
 const mongoose = require('mongoose') 
-const bcrypt = require('bcrypt');
 
 const seleccionMultipleSchema = new mongoose.Schema({
     pregunta: {

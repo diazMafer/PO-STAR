@@ -1,54 +1,64 @@
-.paper {
-    margin-top: 25px;
+.main{
+    margin-top: 25%;
+}
+
+.paper{
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.form {
+
+.form{
     width: 100%;
-    margin-top: 1;
+    margin-top: 30%;
 }
 
-.submit {
-    margin: 3px;
+.submit{
+    margin: 3em;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
-.fontNavTitle {
+.fontNavTitle{
     font-weight: 700;
     font-size: 1.5rem;
-    text-transform: uppercase
+    text-transform: uppercase;
+    color: #52648E;
 }
 
 .fontNav {
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 20px;
     text-transform: uppercase;
+    color: #52648E;
 }
 
-.fontButton {
+.fontButton{
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.fontForm {
+.fontForm{
     font-size: 1rem;
     font-weight: 700;
     color: #bbbbbb;
     text-transform: uppercase;
 }
 
-.fontTittle {
+.fontTittle{
     font-size: 3.5rem;
-    color: #0083ff;
     font-weight: 700;
     text-transform: uppercase;
+    color: #0083ff;
+    margin-bottom: 15%;
 }
 
-.fontTextF {
+.fontTextF{
     font-size: 2rem;
-    color: #7483a9;
+    color: #52648E;
     font-weight: bold;
+    margin-top: 25px;
     text-transform: uppercase;
 }
-

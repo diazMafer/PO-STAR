@@ -14,8 +14,6 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import { Redirect } from 'react-router'
-
-
 import * as Worker from './Worker'
 
 function Copyright() {
@@ -41,22 +39,39 @@ export default class Register extends React.Component {
         this.state = {
             redirect: false
         }
-        this.handleClick = this.handleClick.bind(this)
+		this.handleClick = this.handleClick.bind(this)
+		this.state = {
+			email: ''
+		}
+		this.state = {
+			pass: ''
+		}
 	}
 	
     handleClick(){
         this.setState({redirect: true});
-    }
+	}
 
+	setEmail (e){
+		this.setState({email: e })
+	}
 
-	signUp = async (email, pass) => {
-		const validRegister = await Worker.createAccount(email, pass)
+	setPass (p){
+		this.setState({pass: p })
+	}
+
+	signUp = async () => {
+		console.log('email: '+this.state.email)
+		console.log('password: '+this.state.pass)
+		const validRegister = await Worker.createAccount(this.state.email, this.state.pass)
 		if (validRegister) {
 			this.handleClick()
 		} else {
 			console.log("ocurrio un error")
 		}
 	}
+	
+	
 
 
 	render (){
@@ -65,7 +80,11 @@ export default class Register extends React.Component {
                 pathname: "/"
               }}/>;
 		}
+
 		
+		//const [email, setEmail] = useState('')
+		//const [pass, setPass] = useState('')
+
 		return (
 			<div>
 				<Navbar collapseOnSelect expand="lg" >
@@ -97,12 +116,12 @@ export default class Register extends React.Component {
 								variant="outlined"
 								margin="normal"
 								fullWidth
-								id="email"
+								id="name"
 								label="Nombre"
-								name="email"
-								autoComplete="email"
+								name="name"
+								autoComplete="name"
 								autoFocus
-								onChange={(event) => setName(event.target.value)}
+								
 							/>
 							<TextField
 								className="fontTextF"
@@ -114,7 +133,7 @@ export default class Register extends React.Component {
 								name="email"
 								autoComplete="email"
 								autoFocus
-								onChange={(event) => setEmail(event.target.value)}
+								onChange={(event) =>  this.setEmail(event.target.value)}
 							/>
 							<TextField
 								className="fontTextF"
@@ -126,7 +145,7 @@ export default class Register extends React.Component {
 								type="password"
 								id="password"
 								autoComplete="current-password"
-								onChange={(event) => setPass(event.target.value)}
+								onChange={(event) => this.setPass(event.target.value)}
 							/>
 								<TextField
 								className="fontTextF"
