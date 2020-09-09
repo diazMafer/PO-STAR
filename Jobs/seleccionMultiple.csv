@@ -1,0 +1,84 @@
+Capitulo,Seccion,Pagina,Pregunta,Respuesta,Palabras
+11,11.1.3,405,Ayuda al equipo del proyecto a tener en cuenta de donde pueden surgir riesgos individuales del proyecto,RBS,"SOW, IBS, PM"
+11,11.2.3,417,El registro de riesgos debe de incluir,"Riesgos, dueños y respuestas potenciales de riesgos identificados","Dueños, riesgos, tareas en el backlog"
+11,11.2.3.2,418,En el informe de riesgos se incluye,Fuentes de riesgos ,"informacion de riesgos, riesgos individuales, riesgos generales"
+11,11.3,419,¿Cuál es el beneficio clave de realizar el análisis cualitiativo de riesgos?,Concentrar esfuerzos en riesgos de alta prioridad,"Delegar encargados, riesgos individuales, Priorizar esfuerzos en riesgos individuales"
+11,11.3.2.7,426,¿Quién es el encargado de planificar una respuesta del riesgo y notificar los avances?,dueño del riesgo,"generador del riesgo, dueño del proyecto, product owner"
+1,1.1,1,El PMI define los fundamentos para la dirección de @,proyectos,"productos, equipos, portafolios"
+1,1.2,6,Los proyectos impulsan el @ en las organizaciones,cambio,"conflicto,  compañerismo, valor"
+1,1.2,5,"La naturaleza @ de los proyectos implica que un proyecto tiene un principio y un
+final definidos",temporal,"coolaborativa, conflictiva, contrastante"
+1,1.2,7,El @ define el valor del negocio como el beneficio cuantificable neto que se deriva de una iniciativa de negocio.,PMI,"Product owner, equipo, WBS"
+1,1.2,31,El plan de gestión de beneficios del proyecto es el documento que describe el modo y el momento en que se entregarán los @ del proyecto,beneficios,"entregables, documentos,  papeles"
+2,2.2,38,"Los factores @ de la empresa  hacen referencia a condiciones que no están bajo el control del equipo del proyecto y que influyen, restringen o dirigen el proyecto.",ambientales,"organizacionales, comunales, sociales"
+2,2.3,39,"Los activos de los @ de la organización son los planes, los procesos, las políticas, los procedimientos y las bases de conocimiento específicos de la organización ejecutora y utilizados por la misma. ",procesos,"portafolios, proyectos, productos"
+2,2.3,39,Los @ también incluyen las lecciones aprendidas procedentes de proyectos anteriores y la información histórica de la organización.,OPAs,"OAS, OSAs, ORAs"
+2,2.4,43,La @ se refiere a las disposiciones organizativas o estructurales en todos los niveles de una organización diseñadas para determinar e influir en el comportamiento de los miembros de la organización,gobernanza,"administración, gestión, planificación"
+13,13.1,504,La @ de los interesados debería identificarse y gestionarse como uno de los objetivos del proyecto.,satisfacción,"administración, felicidad, gobernanza"
+13,13.1,510,El registro de @ puede introducir un nuevo interesado o cambiar la naturaleza de la relación de un interesado existente con el proyecto.,cambios,"problemas, inicidentes, requisitos"
+13,13.1,510,El registro de @ registra los incidentes que pueden introducir nuevos interesados al proyecto o cambiar el tipo de participación de los interesados existentes.,inicidentes,"cambios, problemas, requisitos"
+13,13.1,510,Los @ pueden proporcionar información sobre los interesados potenciales.,requisitos,"cambios, inicidentes, problemas"
+13,13.2,521,El análisis de los supuestos y las @ actuales puede llevarse a cabo para adaptar las estrategias de involucramiento adecuadas.,restricciones,"descripciones, inicidencias, problemáticas"
+13,13.2,521,El mapeo mental se utiliza para organizar visualmente la información sobre los @ y sus relaciones entre sí y con la organización.,interesados,"cambios, inicidentes, requisitos"
+13,13.3,525,"El plan de gestión de las @ describe los métodos, formatos y tecnologías utilizados para la comunicación con los interesados.",comunicaciones,"descripciones, inicidencias, restricciones"
+13,13.3,525,"El plan de gestión de los @ describe las categorías de riesgo, apetitos al riesgo y formatos de los informes que pueden utilizarse para gestionar el involucramiento de los interesados.",riesgos,"cambios, inicidentes, requisitos"
+13,13.3,525,El plan de @ de los interesados proporciona orientación e información sobre la gestión de las expectativas de los interesados,involucramiento,"administración, gestión, planificación"
+13,13.3,525,"El plan de gestión de @ describe el proceso para presentar, evaluar e implementar los cambios en el proyecto.",cambios,"riesgos, inicidentes, requisitos"
+13,13.4,534,El análisis de @ puede utilizarse para evaluar las opciones para responder a las variaciones en los resultados deseados del involucramiento de los interesados,alternativas,"raíz, interesados cambios"
+13,13.4,534,Se puede utilizar un análisis de causa @ para determinar el motivo subyacente básico por el cual el involucramiento de los interesados no está teniendo el efecto planificado.,raíz,"alternativas, interesados, cambios"
+13,13.4,534,El análisis de @ ayuda a determinar la posición de los individuos y grupos de interesados en cualquier momento determinado del proyecto.,interesados,"raíz, alternativas, cambios"
+13,13.4,534,Las @ proporcionan información clara a los interesados.,presentaciones,"explicaciones, racionalizaciones, platicas"
+6,6.1,634,Las @ del proyecto determinan qué componentes del plan para la dirección del proyecto y qué documentos del proyecto son necesarios.,necesidades,"reacciones, opciones, documentaciones"
+9,1,312,"La planificación de la gestión de recursos es el proceso de estimar, adquirir y @ los recursos físicos y del equipo.",gestionar,"obtener, addquir, asegurar"
+9,1,313,La planificación de recursos se utiliza tener un enfoque que asegure que haya @ recursos para la exitosa finalización del proyecto.,suficientes,"eficientes, independientes, pobres"
+9,1,314,El plan de gestión de @ ayuda a definir el nivel de los recursos que se necesitará para mantener las métricas de cálidad para el proyecto.,calidad,"ambigüedad, cantidad, mediciones"
+9,2,320,Estimar los recursos de las actividades es el proceso de estimar las @ de recursos que serán necesarios para el proyecto.,cantidades,"especificaciones, convenciones, calificaciones"
+9,2,322,Estimar los recursos de las actividad está estrechamente relacionado con el proceso de Estimar @,costos,"involucrados, tiempos, productos"
+9,2,325,Estimar los recursos de las actividades permite determinar los recursos y las cantidades a utilizar en cada ramificación del @,WBS,"RBS, cronograma de actividades, SOW"
+9,3,328,Adquirir recursos es un proceso para poder @ miembros de equipo y recursos físicos para realizar el proyecto,obtener,"clasificar, omitir, accionar"
+9,3,331,Antes de poder obtener los recursos de un proyecto es necesario tener el @ del proyecto y el calendario de recursos.,cronograma,"portafolio, archivo, SOW"
+9,3,332,La toma de decisiones es fundamental antes de proceder a @ recursos para el proyecto.,adquirir,"vender, cambiar, reciclar"
+9,4,336,"Desarrollar al equipo permite mejorar las competencias, interacción y ambiente del equipo para impulsar el @.",desempeño,"trabajo en equipo, ambiente, aumento de salarios"
+9,5,345,Dirigir al equipo es un proceso que consiste en hacer un @ del desempeño del equipo para poder retroalimentar y resolver problemas del mismo.,seguimiento,"corte, aumento, desinteres"
+9,5,346,"Para poder dirigir a un equipo con respecto a la gestión de recursos es necesario tener un @ de incidentes, desempeño y lecciones aprendidas a considerar.",registro,"costo, caendario, medidor"
+9,6,352,Controlar los recursos es un proceso para @ que los recursos físicos asignados están disponibles para el proyecto.,asegurar,"remarcar, condecorar, celebrar"
+9,6,352,Controlar los recursos es un proceso para @ la utilización de recursos planificada frente a la real.,monitorear,"especificar, arriesgar, evitar"
+10,1,366,Planificar la gestión de comunicaciones es el proceso de desarrollar un enfoque de estrategias de comunicación para tener la @ que necesite cada interesado. ,información,"ganancia, competencia, plaza"
+10,1,370,Las técnologías de la comunicación son una herramienta para poder @ información entre los interesados,transferir,"medir, ocultar, enredar"
+10,2,379,"Gestionar las comunicaciones es el proceso de @ que la recolpiación, distribución y monitoreo de la informaición esten disponibles a interesados.",garantizar,"especificar, investigar, objetar"
+10,3,388,Monitorear las comunicaciones es el proceso de @ que se satisfagan las necesidades de comunicación del proyecto y sus interesados,asegurar,"transferir, objetar, enterar"
+2,0,561,El Grupo de Procesos de Inicio está compuesto por aquellos procesos realizados para @ un nuevo proyecto a una nueva fase de un proyecto existente.,definir,"excluir, convenir, emerger"
+2,0,561,El propósito del Grupo de Procesos de Inicio es @ las expectativas de los interesados,alinear,"enredar, comunicar, clasificar"
+2,0,562,Revisar los procesos de Inicio al comienzo de cada fase ayuda a mantener el proyecto centrado en la @ del negocio,necesidad,"alianza, jefatura, negligencia"
+2,1,563,Desarrollar el acta de constitución del proyecto es el proceso de @ un documento que autoriza formalmente la existencia de un proyecto,desarrollar,"combinar, alcanzar, editar"
+5,"5,2",140,Los requisitos del @ no se abordan ya que son especificos de cada industria,producto,"proyecto, riesgo, clase"
+5,"5,2",141,"Un documento de negocio que puede influir en el proceso Recopilar Requisitos es el @, que puede describir los criterios necesarios, deseados y opcionales para satisfacer las necesidades del negocio.",caso de negocio,
+5,"5,2",143,"Entre las técnicas de análisis de datos  se incluye, entre otras, el @. Este consiste en la revisión y evaluación de cualquier información documentada pertinente.",analisis de documentos,
+5,"5,6",170,El @ es utilizado para comparar la línea base con los resultados reales y determinar si la variación está dentro del monto de umbral o si la acción correctiva o preventiva es apropiada., análisis de variación,
+5,"5,6",171,"Los cambios de la @ del cronograma se incorporan en respuesta a los cambios aprobados en el alcance del proyecto, los recursos o las estimaciones del cronograma.",linea base,
+5,"5,6",171,"Los cambios de la línea base para la @ se incorporan en respuesta los cambios aprobados en el alcance del proyecto, el desempeño del cronograma o las estimaciones de costos.",medicion del desempeño,
+6,"6,3",187,Hacer una @ de actividades es el proceso que consiste en identificar y documentar las relaciones entre las actividades del proyecto.,secuencia,
+6,"6,3",188,"Contiene todas las actividades del cronograma requeridas en el proyecto, que deberán ser secuenciadas.",lista e actividades,
+6,"6,3",189,Es una técnica utilizada para construir un modelo de programación en el cual las actividades se representan mediante nodos y se vinculan gráficamente mediante una o más relaciones lógicas para indicar la secuencia en que deben ser ejecutadas.,PDM  (metodo de diagramacion de procedencia),
+6,"6,3",194,"Pueden describir una secuencia necesaria de eventos o definir relaciones de tipo predecesor o sucesor, así como también adelantos y retrasos, y relaciones lógicas definidas entre las actividades.",Atributos,
+6,"6,6",227,"Permiten medir, comparar y analizar el desempeño del cronograma con relación a la línea base del cronograma, en aspectos como las fechas reales de inicio y finalización, el porcentaje completado y mas.",revisiones del desempeño,
+6,"6,6",228,Se utilizan para encontrar maneras de volver a alinear las actividades retrasadas del proyecto con el plan mediante la ejecución rápida o la intensificación del cronograma para el trabajo restante.,comprension del cronograma,
+6,"6,6",229,"se incorporan en respuesta a los cambios aprobados en el alcance del proyecto, los recursos o las estimaciones de costos.",cambios en la linea base de costos,
+3,3.1,52,"Los @ director del proyecto proporciona al equipo del proyecto liderazgo, planifcación y coordinación a través de las comunicaciones",conocimientos y habilidades,
+3,3.2,52,La @ es la persona asignada por la organización ejecutora para liderar al equipo responsable de alcanzar los objetivos del proyecto.,Definicon de un director de proyectos,
+3,3.3.5,56,La permanente transferencia e integración de conocimientos es muy importante para el director del proyecto,Disciplina profesional,
+3,3.4.5,64," La @ está más estrechamente relacionada con dirigira otra persona para que llegue de un punto a otro usando un
+conjunto conocido de comportamientos esperados.",gestión,
+3,3.5.4,68,"La @ en el ámbito de los proyectos es resultado del comportamiento del sistema de la organización, el comportamiento humano y la incertidumbre en el trabajo de la organización o su entorno",complejidad,
+4,4.1,75,el @ es el proceso de desarrollar un documento que autoriza formalmente la existencia de un proyecto y confere al director de proyecto la autoridad para asignar los recursos de la organización a las actividades del proyecto,Desarrollar el Acta de Constitución del Proyecto,
+4,4.2,82,"El @ es el proceso de defnir, preparar y coordinar todos los componentes del plan y consolidarlos en un plan integral para la dirección del proyecto. ",Desarrollar el Plan para la Dirección del Proyecto,
+4,4.3,90,"El benefcio de @  es que proporciona la dirección general del trabajo y los entregables del proyecto, mejorando así la probabilidad de éxito del proyecto.",Dirigir y Gestionar el Trabajo del Proyecto,
+4,4.4.1.5,102,"La @ incluyen registros de desarrollo y capacitación de empleados, y marcos de competencia que hacen referencia a comportamientos de intercambio de conocimientos",gestion de personal,
+4,4.5,105,"El @ es el proceso de hacer seguimiento, revisar e informar el avance general a fn de cumplir con los objetivos de desempeño defnidos en el plan para la dirección del proyecto",Monitorear y Controlar el Trabajo del Proyecto,
+4,4.6,113,"Realizar @ es el proceso de revisar todas las solicitudes de cambio; aprobar y gestionar cambios a entregables, documentos del proyecto y al plan para la dirección del proyecto; y comunicar las decisiones",el Control Integrado de Cambios,
+4,4.7.3.4,128," Los @, que consisten en la documentación formal que indica la terminación del proyecto o fase y la transferencia de los entregables completos del proyecto o fase a otros, como por ejemplo a un grupo de operaciones o a la siguiente fase",Documentos de cierre del proyecto o fase,
+5,5.1,615,"El benefcio clave de @ es que permite a los interesados comprender el estado actual del proyecto, reconocer las medidas adoptadas para abordar los problemas de desempeño y tener visibilidad del estado futuro del proyecto con los pronósticos del cronograma y de costos. ",Monitorear y Controlar el Trabajo del Proyecto,
+5,5.2,616,"Realizar @ es el proceso de revisar todas las solicitudes de cambio, aprobar y gestionar los cambios a entregables, activos de los procesos de la organización, documentos del proyecto y al plan para la dirección del proyecto, y comunicar las decisiones.",el Control Integrado de Cambios,
+5,5.3,618,Las @ determinan qué componentes del plan para la dirección del proyecto y qué documentos del proyecto son necesarios.,necesidades del proyecto,
+5,5.4,619,"El @ es el proceso en el cual se monitorea el estado del alcance del proyecto y del producto, y se gestionan cambios a la línea base del alcance. ",controlar el Alcance,
+5,5.9,627,El @ es el proceso de asegurar que se satisfagan las necesidades de información del proyecto y de sus interesados.,Monitorear las Comunicaciones,
