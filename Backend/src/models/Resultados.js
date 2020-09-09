@@ -1,5 +1,4 @@
 const mongoose = require('mongoose') 
-const bcrypt = require('bcrypt');
 
 const resultadosSchema = new mongoose.Schema({
     parte: {

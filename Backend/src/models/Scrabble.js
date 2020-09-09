@@ -1,5 +1,4 @@
-const mongoose = require('mongoose') 
-const bcrypt = require('bcrypt');
+const mongoose = require('mongoose')
 
 const scabbleSchema = new mongoose.Schema({
     pregunta: {

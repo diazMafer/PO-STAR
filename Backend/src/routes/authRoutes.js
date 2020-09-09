@@ -30,7 +30,7 @@ router.post('/signup', async (req, res) => {
   
     try {
       await user.comparePassword(password);
-      res.status(200).send('Signin Correctly');
+      res.status(200).send({message: 'Signin Correctly', username: user.username});
     } catch (err) {
       return res.status(422).send({ error: 'Invalid password or email' });
     }
