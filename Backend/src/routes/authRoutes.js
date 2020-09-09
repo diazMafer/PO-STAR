@@ -5,12 +5,11 @@ const User = mongoose.model('User');
 const router = express.Router();
 
 router.post('/signup', async (req, res) => {
-    const { email, password } = req.body;
+    const { email, password, username } = req.body;
   
     try {
-      const user = new User({ email, password });
+      const user = new User({ email, password, username });
       await user.save();
-  
       res.status(201).send('User created');
     } catch (err) {
       return res.status(422).send(err.message);
