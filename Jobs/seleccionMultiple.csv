@@ -1,14 +1,44 @@
 Capitulo,Seccion,Pagina,Pregunta,Respuesta,Palabras
-11,11.1.3,405,Ayuda al equipo del proyecto a tener en cuenta de donde pueden surgir riesgos individuales del proyecto,RBS,"SOW, IBS, PM"
-11,11.2.3,417,El registro de riesgos debe de incluir,"Riesgos, dueños y respuestas potenciales de riesgos identificados","Dueños, riesgos, tareas en el backlog"
-11,11.2.3.2,418,En el informe de riesgos se incluye,Fuentes de riesgos ,"informacion de riesgos, riesgos individuales, riesgos generales"
+11,11.1,405,Ayuda al equipo del proyecto a tener en cuenta de donde pueden surgir riesgos individuales del proyecto,RBS,"SOW, IBS, PM"
+11,11.2,417,El registro de riesgos debe de incluir,"Riesgos, dueños y respuestas potenciales de riesgos identificados","Dueños, riesgos, tareas en el backlog"
+11,11.2,418,En el informe de riesgos se incluye,Fuentes de riesgos ,"informacion de riesgos, riesgos individuales, riesgos generales"
 11,11.3,419,¿Cuál es el beneficio clave de realizar el análisis cualitiativo de riesgos?,Concentrar esfuerzos en riesgos de alta prioridad,"Delegar encargados, riesgos individuales, Priorizar esfuerzos en riesgos individuales"
-11,11.3.2.7,426,¿Quién es el encargado de planificar una respuesta del riesgo y notificar los avances?,dueño del riesgo,"generador del riesgo, dueño del proyecto, product owner"
+11,11.3,426,¿Quién es el encargado de planificar una respuesta del riesgo y notificar los avances?,dueño del riesgo,"generador del riesgo, dueño del proyecto, product owner"
+11,11.4,434,El analisis de @ ayuda a visualizar que tiene mayor impacto sobre los resultados del proyecto,sensibilidad,"datos, riesgos, decisiones"
+11,11.5,437,¿Cuál es el objetivo de planificar la respuesta a los riesgos?,Abordar riesgos,"Identificar riesgos, planificar riesgos, eliminar riesgos"
+12,,459,¿Que se adquiere en la gestión de adquisicion del proyecto?,productos y/o servicios,"patrocineos, capital, productos"
+12,,459,Los procesos de adquisición del proyecto involucran acuerdos entre ,comprador y vendedor,"producto owner y equipo de desarrollo, compra y venta, vendedor y product owner"
+12,12.1,477,Una @ se utiliza cuando se necesita más información de los vendedores ,RFI,"RFQ, RFP, RFO"
+12,12.2,482,Es el proceso de obtener respuestas de los proveedores,Efecutar adquisiciones,"Comprar, Vender, Efecutar Ventas"
+12,12.3,492,Es el proceso de gestionar las relaciones de adquisiciones,Contralar adquisiciones,"Velar por adquisiciones, Gestionar Adquisiciones, Efectuar adquisiciones"
+1,1.2,543,Un @ se define como los proyectos cuya gestión se realiza de manera coordinada,Portafolio,"Estandar, libro, objetivo"
+1,1.5,547,El @ de un proyecto es la serie de fases que atraviesa un proyecto,Ciclo de vida ,"Ciclo de ejecución, Ciclo de desarrollo, Ciclo de agua"
+5,4.1,140,La Guía del PMBOK® no aborda específicamente requisitos del @ ya que son específicos de cada industria.,producto,"alternativas, interesados, La inspección "
+5,4.1,141,"Un documento de negocio que puede influir en el proceso Recopilar Requisitos es el @, que puede describir los criterios necesarios, deseados y opcionales para satisfacer las necesidades del negocio.",caso de negocio,"interesados, componentes, La simulacion"
+5,4.1,143,"Entre las técnicas de análisis de datos  se incluye, entre otras, el @. Este consiste en la revisión y evaluación de cualquier información documentada pertinente.",analisis de documentos,"paquete de trabajo, componentes, nivelacion de recursos "
+5,4.1,170,El @ es utilizado para comparar la línea base con los resultados reales y determinar si la variación está dentro del monto de umbral o si la acción correctiva o preventiva es apropiada., análisis de variación,"propósito, alternativas, interesados"
+5,4.1,171,"Los cambios de la @ del cronograma se incorporan en respuesta a los cambios aprobados en el alcance del proyecto, los recursos o las estimaciones del cronograma.",linea base,"paquete de trabajo, nivel de exactitud, enfoques adaptativos "
+5,4.1,171,"Los cambios de la línea base para la @ se incorporan en respuesta los cambios aprobados en el alcance del proyecto, el desempeño del cronograma o las estimaciones de costos.",medicion del desempeño,"secuencia, lista e actividades, PDM"
+6,5.1,187,Hacer una @ de actividades es el proceso que consiste en identificar y documentar las relaciones entre las actividades del proyecto.,secuencia,"lista e actividades, Atributos, mediciones"
+6,5.1,188,"Contiene todas las actividades del cronograma requeridas en el proyecto, que deberán ser secuenciadas.",lista e actividades,"Atributos, cronogramas, revisiones del desempeño"
+6,"6,3",189,Es una técnica utilizada para construir un modelo de programación en el cual las actividades se representan mediante nodos y se vinculan gráficamente mediante una o más relaciones lógicas para indicar la secuencia en que deben ser ejecutadas.,PDM  (metodo de diagramacion de procedencia),"comprension del cronograma, revisiones del desempeño, secuenciacion "
+6,"6,3",194,"Pueden describir una secuencia necesaria de eventos o definir relaciones de tipo predecesor o sucesor, así como también adelantos y retrasos, y relaciones lógicas definidas entre las actividades.",Atributos,"Componentes, cronogramas, revisiones"
+6,"6,6",227,"Permiten medir, comparar y analizar el desempeño del cronograma con relación a la línea base del cronograma, en aspectos como las fechas reales de inicio y finalización, el porcentaje completado y mas.",revisiones del desempeño,"productos, casos de negocio, solicitudes de cambio."
+6,"6,6",228,Se utilizan para encontrar maneras de volver a alinear las actividades retrasadas del proyecto con el plan mediante la ejecución rápida o la intensificación del cronograma para el trabajo restante.,comprension del cronograma,"Atributos, Cambios en la linea de costos, linea base"
+6,"6,6",229,"se incorporan en respuesta a los cambios aprobados en el alcance del proyecto, los recursos o las estimaciones de costos.",cambios en la linea base de costos,"registro de riesgos, alternativas, interesados"
+7,"7,1",238,Entre las técnicas de análisis de datos que pueden utilizarse en el   proceso  de Gestion de Costos se incluye,analisis de alternativa ,"analisis estructural,analisis cualitativo, analisis formal."
+7,"7,1",233,La Gestión de los Costos del Proyecto se ocupa principalmente del @,costo ,"recurso,plan,organismo"
+7,"7,1",234,En casos en que los proyectos de alta variabilidad también están sujetos a @,presupuestos estrictos,"costos, revisiones,implementacion "
+7,"7,3",253,"Entre las técnicas de análisis de datos que pueden utilizarse en el proceso Determinar el Presupuesto se incluye,",analisis de reserva,"analisis alternativo,analisis estructural,analisiscualitativo."
+7,"7,4",262,Es el presupuesto autorizado que se ha asignado al trabajo programado.,valor planificado,"valor ganado,costo real."
+7,"7,4",262,Es la medida del trabajo realizado expresado en términos de presupuesto autorizado para dicho trabajo.,valor ganado,"valorplanificado,costo real."
+8,"8,1",282,"Los costos relacionados con la @ de calidad deficiente en los productos, entregables o servicios del proyecto específico.",prevencion ,"evaluacion,fallas,conformidad "
+8,"8,1",285,"Son una representación visual de los datos de una organización, descritos en el lenguaje de los negocios e independientes de cualquier tecnología específica",Modelo Logico de datos ,"diagramas matriciales,mapeo mental"
 1,1.1,1,El PMI define los fundamentos para la dirección de @,proyectos,"productos, equipos, portafolios"
 1,1.2,6,Los proyectos impulsan el @ en las organizaciones,cambio,"conflicto,  compañerismo, valor"
 1,1.2,5,"La naturaleza @ de los proyectos implica que un proyecto tiene un principio y un
 final definidos",temporal,"coolaborativa, conflictiva, contrastante"
-1,1.2,7,El @ define el valor del negocio como el beneficio cuantificable neto que se deriva de una iniciativa de negocio.,PMI,"Product owner, equipo, WBS"
+1,1.2,7,El @ define el valor del negocio como el beneficio cuantificable neto que se deriva de una iniciativa de negocio.,PMI,"product owner, equipo, "
 1,1.2,31,El plan de gestión de beneficios del proyecto es el documento que describe el modo y el momento en que se entregarán los @ del proyecto,beneficios,"entregables, documentos,  papeles"
 2,2.2,38,"Los factores @ de la empresa  hacen referencia a condiciones que no están bajo el control del equipo del proyecto y que influyen, restringen o dirigen el proyecto.",ambientales,"organizacionales, comunales, sociales"
 2,2.3,39,"Los activos de los @ de la organización son los planes, los procesos, las políticas, los procedimientos y las bases de conocimiento específicos de la organización ejecutora y utilizados por la misma. ",procesos,"portafolios, proyectos, productos"
@@ -34,7 +64,7 @@ final definidos",temporal,"coolaborativa, conflictiva, contrastante"
 9,1,314,El plan de gestión de @ ayuda a definir el nivel de los recursos que se necesitará para mantener las métricas de cálidad para el proyecto.,calidad,"ambigüedad, cantidad, mediciones"
 9,2,320,Estimar los recursos de las actividades es el proceso de estimar las @ de recursos que serán necesarios para el proyecto.,cantidades,"especificaciones, convenciones, calificaciones"
 9,2,322,Estimar los recursos de las actividad está estrechamente relacionado con el proceso de Estimar @,costos,"involucrados, tiempos, productos"
-9,2,325,Estimar los recursos de las actividades permite determinar los recursos y las cantidades a utilizar en cada ramificación del @,WBS,"RBS, cronograma de actividades, SOW"
+9,2,325,Estimar los recursos de las actividades permite determinar los recursos y las cantidades a utilizar en cada ramificación del @,WBS,"Diagrama de precedencias, cronograma de actividades, SOW"
 9,3,328,Adquirir recursos es un proceso para poder @ miembros de equipo y recursos físicos para realizar el proyecto,obtener,"clasificar, omitir, accionar"
 9,3,331,Antes de poder obtener los recursos de un proyecto es necesario tener el @ del proyecto y el calendario de recursos.,cronograma,"portafolio, archivo, SOW"
 9,3,332,La toma de decisiones es fundamental antes de proceder a @ recursos para el proyecto.,adquirir,"vender, cambiar, reciclar"
@@ -47,23 +77,11 @@ final definidos",temporal,"coolaborativa, conflictiva, contrastante"
 10,1,370,Las técnologías de la comunicación son una herramienta para poder @ información entre los interesados,transferir,"medir, ocultar, enredar"
 10,2,379,"Gestionar las comunicaciones es el proceso de @ que la recolpiación, distribución y monitoreo de la informaición esten disponibles a interesados.",garantizar,"especificar, investigar, objetar"
 10,3,388,Monitorear las comunicaciones es el proceso de @ que se satisfagan las necesidades de comunicación del proyecto y sus interesados,asegurar,"transferir, objetar, enterar"
+,,,,,
 2,0,561,El Grupo de Procesos de Inicio está compuesto por aquellos procesos realizados para @ un nuevo proyecto a una nueva fase de un proyecto existente.,definir,"excluir, convenir, emerger"
 2,0,561,El propósito del Grupo de Procesos de Inicio es @ las expectativas de los interesados,alinear,"enredar, comunicar, clasificar"
 2,0,562,Revisar los procesos de Inicio al comienzo de cada fase ayuda a mantener el proyecto centrado en la @ del negocio,necesidad,"alianza, jefatura, negligencia"
 2,1,563,Desarrollar el acta de constitución del proyecto es el proceso de @ un documento que autoriza formalmente la existencia de un proyecto,desarrollar,"combinar, alcanzar, editar"
-5,"5,2",140,Los requisitos del @ no se abordan ya que son especificos de cada industria,producto,"proyecto, riesgo, clase"
-5,"5,2",141,"Un documento de negocio que puede influir en el proceso Recopilar Requisitos es el @, que puede describir los criterios necesarios, deseados y opcionales para satisfacer las necesidades del negocio.",caso de negocio,
-5,"5,2",143,"Entre las técnicas de análisis de datos  se incluye, entre otras, el @. Este consiste en la revisión y evaluación de cualquier información documentada pertinente.",analisis de documentos,
-5,"5,6",170,El @ es utilizado para comparar la línea base con los resultados reales y determinar si la variación está dentro del monto de umbral o si la acción correctiva o preventiva es apropiada., análisis de variación,
-5,"5,6",171,"Los cambios de la @ del cronograma se incorporan en respuesta a los cambios aprobados en el alcance del proyecto, los recursos o las estimaciones del cronograma.",linea base,
-5,"5,6",171,"Los cambios de la línea base para la @ se incorporan en respuesta los cambios aprobados en el alcance del proyecto, el desempeño del cronograma o las estimaciones de costos.",medicion del desempeño,
-6,"6,3",187,Hacer una @ de actividades es el proceso que consiste en identificar y documentar las relaciones entre las actividades del proyecto.,secuencia,
-6,"6,3",188,"Contiene todas las actividades del cronograma requeridas en el proyecto, que deberán ser secuenciadas.",lista e actividades,
-6,"6,3",189,Es una técnica utilizada para construir un modelo de programación en el cual las actividades se representan mediante nodos y se vinculan gráficamente mediante una o más relaciones lógicas para indicar la secuencia en que deben ser ejecutadas.,PDM  (metodo de diagramacion de procedencia),
-6,"6,3",194,"Pueden describir una secuencia necesaria de eventos o definir relaciones de tipo predecesor o sucesor, así como también adelantos y retrasos, y relaciones lógicas definidas entre las actividades.",Atributos,
-6,"6,6",227,"Permiten medir, comparar y analizar el desempeño del cronograma con relación a la línea base del cronograma, en aspectos como las fechas reales de inicio y finalización, el porcentaje completado y mas.",revisiones del desempeño,
-6,"6,6",228,Se utilizan para encontrar maneras de volver a alinear las actividades retrasadas del proyecto con el plan mediante la ejecución rápida o la intensificación del cronograma para el trabajo restante.,comprension del cronograma,
-6,"6,6",229,"se incorporan en respuesta a los cambios aprobados en el alcance del proyecto, los recursos o las estimaciones de costos.",cambios en la linea base de costos,
 3,3.1,52,"Los @ director del proyecto proporciona al equipo del proyecto liderazgo, planifcación y coordinación a través de las comunicaciones",conocimientos y habilidades,
 3,3.2,52,La @ es la persona asignada por la organización ejecutora para liderar al equipo responsable de alcanzar los objetivos del proyecto.,Definicon de un director de proyectos,
 3,3.3.5,56,La permanente transferencia e integración de conocimientos es muy importante para el director del proyecto,Disciplina profesional,
