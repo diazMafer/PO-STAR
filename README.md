@@ -57,7 +57,7 @@ Este proyecto hace uso de las siguientes herramientas:
 
 ## Autores
 * **María Fernanda López Díaz** - *Initial work* - [diazMafer](https://github.com/diazMafer)
-* **Jose David Uriel Soto** - *Contributor* - 
+* **David Uriel Soto Alvarez** - *Contributor* - [DavidSoto5317](https://github.com/DavidSoto5317)
 * **Diego Leonel Sevilla de León** - *Contributor* - [sev17238](https://github.com/sev17238)
 * **Josue Lopez Florian** - *Contributor* - 
 * **Paul de Jesus Belches** - *Contributor* - [paulDevPack](https://github.com/paulDevPack)
