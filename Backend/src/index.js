@@ -10,7 +10,7 @@ const authRoutes = require('./routes/authRoutes')
 const chaptersRoutes = require('./routes/chaptersRoutes')
 const sectionsRoutes = require('./routes/sectionsRoutes')
 =======
-const cors = require('cors');
+
 >>>>>>> Stashed changes
 
 const app = express()
