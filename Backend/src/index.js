@@ -6,12 +6,9 @@ const express = require('express')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
 const authRoutes = require('./routes/authRoutes')
-<<<<<<< Updated upstream
 const chaptersRoutes = require('./routes/chaptersRoutes')
 const sectionsRoutes = require('./routes/sectionsRoutes')
-=======
-
->>>>>>> Stashed changes
+const cors = require('cors');
 
 const app = express()
 app.use(cors())
