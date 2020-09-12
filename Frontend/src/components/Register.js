@@ -7,14 +7,14 @@ import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
-import  '../css/register.css'
+import  '../css/register.css';
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-import { Redirect } from 'react-router'
-import * as Worker from './Worker'
+import { Redirect } from 'react-router';
+import * as Worker from './Worker';
 
 function Copyright() {
 	return (
@@ -28,9 +28,6 @@ function Copyright() {
 		</Typography>
 	);
 }
-
-
-
 
 export default class Register extends React.Component {
 
@@ -61,11 +58,12 @@ export default class Register extends React.Component {
 	}
 
 	signUp = async () => {
-		console.log('email: '+this.state.email)
-		console.log('password: '+this.state.pass)
-		const validRegister = await Worker.createAccount(this.state.email, this.state.pass)
+		console.log('email: '+this.state.email);
+		console.log('password: '+this.state.pass);
+		const validRegister = await Worker.createAccount(this.state.email, this.state.pass);
 		if (validRegister) {
-			this.handleClick()
+			this.handleClick();
+
 		} else {
 			console.log("ocurrio un error")
 		}
@@ -75,6 +73,7 @@ export default class Register extends React.Component {
 
 
 	render (){
+		//console.log(this.state.redirect);
 		if (this.state.redirect) {
             return <Redirect to={{
                 pathname: "/"

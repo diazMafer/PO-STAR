@@ -9,17 +9,17 @@ import TextField from '@material-ui/core/TextField';
 import Buttonn from 'react-bootstrap/Button';
 
 import Grid from '@material-ui/core/Grid';
-import  '../css/styles.css'
-import  '../css/login.css'
-import { makeStyles } from '@material-ui/core/styles'
+import  '../css/styles.css';
+import  '../css/login.css';
+import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-import { Redirect } from 'react-router'
-import * as Worker from './Worker'
+import { Redirect } from 'react-router';
+import * as Worker from './Worker';
 
 export default class Login extends React.Component {
 
@@ -54,6 +54,7 @@ export default class Login extends React.Component {
 		console.log('password: '+this.state.pass)
 		const validRegister = await Worker.Sign_in(this.state.email, this.state.pass)
 		if (validRegister) {
+			console.log('entrmos')
 			this.handleClick()
 		} else {
 			console.log("ocurrio un error")
@@ -64,8 +65,9 @@ export default class Login extends React.Component {
 	
 	render (){
 		if (this.state.redirect) {
+			console.log('hola, ya entramos')
             return <Redirect to={{
-                pathname: "/"
+                pathname: "/Menu"
               }}/>;
 		}
 

@@ -1,15 +1,15 @@
 import axios from 'axios';
 
-axios.defaults.headers.common['Authorization'] = `Basic cG9jOlBhY2lmaWtvMTAwJQ==` 
+axios.defaults.headers.common['Authorization'] = `Basic cG9jOlBhY2lmaWtvMTAwJQ==`;
 
 
 //al backend le hace falta que obtenga el name, esto nos servira para no tenerlo
 //quemado a lo largo del frontend o pasarnoslo de componente en componente
-export const createAccount = (mail, pass) => {
+export const createAccount = (email, password) => {
 	return new Promise(async (resolve, reject) => {
 		await axios.post('http://localhost:3000/signup', {
-			email: mail,
-			password: pass
+			email: email,
+			password: password
 		}).then(({status,data}) =>{
 			if(status === 201){
 				resolve(data)
@@ -22,13 +22,13 @@ export const createAccount = (mail, pass) => {
 	
 }
 
-export const Sign_in = (mail, pass) => {
+export const Sign_in = (email, password)  => {
 	return new Promise(async (resolve, reject) => {
 		await axios.post('http://localhost:3000/signin', {
-			email: mail,
-			password: pass
+			email: email,
+			password: password
 		}).then(({status,data}) =>{
-			if(status === 201){
+			if(status === 200){
 				resolve(data)
 			} else if (status === 422){
 				console.log("backend response error with 422 on signin")
